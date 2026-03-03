@@ -2,10 +2,12 @@
  *
  * Created by: Jet Lu
  * Created on: Mar 2026
- * This program is cookie clicker.
+ * This program is Cookie Clicker.
 */
 
+// create variable + reset
 let cookies = 0
+basic.showNumber(0)
 
 // adds cookies on A pressed
 input.onButtonPressed(Button.A, function() {
@@ -20,8 +22,3 @@ input.onButtonPressed(Button.B, function () {
     cookies = 0
     basic.showNumber(cookies)
 })
-
-    
-
-
-
