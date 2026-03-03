@@ -2,7 +2,7 @@
  *
  * Created by: Jet Lu
  * Created on: Mar 2026
- * This program is cookie clicker.
+ * This program is Cookie Clicker.
 */
 
 // create variable + reset
@@ -22,8 +22,3 @@ input.onButtonPressed(Button.B, function () {
     cookies = 0
     basic.showNumber(cookies)
 })
-
-    
-
-
-
