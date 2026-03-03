@@ -1,9 +1,17 @@
 """
-Created by: Mr. Coxall
-Created on: Sep 2020
+Created by: Jet Lu
+Created on: Mar 2026
 This module is a Micro:bit MicroPython program
 """
 
 from microbit import *
 
-display.scroll("Hello, World!")
+Cookies = 0
+
+while True:
+    if button_a.is_pressed:
+        cookies = (cookies +1)
+        
+        display.scroll(cookies)
+
+
