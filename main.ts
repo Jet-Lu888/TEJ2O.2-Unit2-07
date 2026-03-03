@@ -5,7 +5,9 @@
  * This program is cookie clicker.
 */
 
+// create variable + reset
 let cookies = 0
+basic.showNumber(0)
 
 // adds cookies on A pressed
 input.onButtonPressed(Button.A, function() {
