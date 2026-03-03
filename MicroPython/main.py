@@ -1,17 +1,21 @@
 """
 Created by: Jet Lu
 Created on: Mar 2026
-This module is a Micro:bit MicroPython program
+This module is a Micro:bit MicroPython program is Cookie Clicker.
 """
 
 from microbit import *
 
-Cookies = 0
+cookies = 0
 
 while True:
-    if button_a.is_pressed:
-        cookies = (cookies +1)
-        
+    # if button a is pressed, 1 cookie is added
+    if button_a.was_pressed():  # used was pressed, so it won't add super fast
+        cookies = cookies + 1
+        display.clear()
         display.scroll(cookies)
-
-
+    # resets the cookies
+    if button_b.was_pressed():  # used was pressed, so it won't add super fast
+        cookies = 0
+        display.clear()
+        display.scroll(cookies)
