@@ -1,7 +1,7 @@
 """
 Created by: Jet Lu
 Created on: Mar 2026
-This module is a Micro:bit MicroPython program is Cookie Clicker.
+This module is a Micro:bit MicroPython program that runs Cookie Clicker.
 """
 
 from microbit import *
