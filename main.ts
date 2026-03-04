@@ -8,7 +8,7 @@
 // create variable + reset
 let cookies = 0
 basic.showNumber(0)
-basic.showIcon(IconNames.HAPPY)
+basic.showIcon(IconNames.Happy)
 
 // adds cookies on A pressed
 input.onButtonPressed(Button.A, function() {
