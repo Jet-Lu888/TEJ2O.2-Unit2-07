@@ -6,7 +6,9 @@ This module is a Micro:bit MicroPython program that runs Cookie Clicker.
 
 from microbit import *
 
+# startup
 cookies = 0
+display.show(Image.HAPPY)
 
 while True:
     # if button a is pressed, 1 cookie is added
