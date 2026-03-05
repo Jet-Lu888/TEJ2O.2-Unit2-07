@@ -15,9 +15,9 @@ while True:
     if button_a.was_pressed():  # used was pressed, so it won't add super fast
         cookies = cookies + 1
         display.clear()
-        display.scroll(str(cookies))
+        display.show(str(cookies))
     # resets the cookies
     if button_b.was_pressed():  # used was pressed, so it won't add super fast
         cookies = 0
         display.clear()
-        display.scroll(str(cookies))
+        display.show(str(cookies))
